@@ -1,0 +1,12 @@
+#!/bin/bash
+
+python -m venv venv
+source venv/bin/activate
+
+pip install flask
+pip install youtube-search-python
+pip install pytube
+pip install moviepy
+pip install pydub
+
+python server.py
